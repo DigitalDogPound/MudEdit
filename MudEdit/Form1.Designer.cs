@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -86,14 +87,14 @@
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -223,7 +224,7 @@
             this.exportToolStripMenuItem,
             this.importToolStripMenuItem});
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
-            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.databaseToolStripMenuItem.Text = "Database";
             // 
             // exportToolStripMenuItem
@@ -246,20 +247,20 @@
             this.divideAllExpToolStripMenuItem,
             this.multiplyAllExpToolStripMenuItem});
             this.monstersToolStripMenuItem.Name = "monstersToolStripMenuItem";
-            this.monstersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.monstersToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.monstersToolStripMenuItem.Text = "Monsters";
             // 
             // divideAllExpToolStripMenuItem
             // 
             this.divideAllExpToolStripMenuItem.Name = "divideAllExpToolStripMenuItem";
-            this.divideAllExpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.divideAllExpToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.divideAllExpToolStripMenuItem.Text = "Divide all exp";
             this.divideAllExpToolStripMenuItem.Click += new System.EventHandler(this.divideAllExpToolStripMenuItem_Click);
             // 
             // multiplyAllExpToolStripMenuItem
             // 
             this.multiplyAllExpToolStripMenuItem.Name = "multiplyAllExpToolStripMenuItem";
-            this.multiplyAllExpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.multiplyAllExpToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.multiplyAllExpToolStripMenuItem.Text = "Multiply all exp";
             this.multiplyAllExpToolStripMenuItem.Click += new System.EventHandler(this.multiplyAllExpToolStripMenuItem_Click);
             // 
@@ -268,19 +269,19 @@
             this.shopsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.restockAllShopsToolStripMenuItem});
             this.shopsToolStripMenuItem.Name = "shopsToolStripMenuItem";
-            this.shopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.shopsToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.shopsToolStripMenuItem.Text = "Shops";
             // 
             // restockAllShopsToolStripMenuItem
             // 
             this.restockAllShopsToolStripMenuItem.Name = "restockAllShopsToolStripMenuItem";
-            this.restockAllShopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.restockAllShopsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.restockAllShopsToolStripMenuItem.Text = "Restock all shops";
             // 
             // compileUpdatesToolStripMenuItem
             // 
             this.compileUpdatesToolStripMenuItem.Name = "compileUpdatesToolStripMenuItem";
-            this.compileUpdatesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.compileUpdatesToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.compileUpdatesToolStripMenuItem.Text = "Compile Updates?";
             // 
             // helpToolStripMenuItem
@@ -304,6 +305,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1227, 656);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "MudEdit Version 1.0";
