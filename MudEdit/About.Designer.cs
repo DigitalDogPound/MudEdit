@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(713, 415);
+            this.button1.Location = new System.Drawing.Point(183, 76);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -41,11 +42,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.richTextBox1.Location = new System.Drawing.Point(2, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox1.Size = new System.Drawing.Size(256, 67);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "MudEdit Version 1.0 GUI by Deshi. \nThis is an editor for the custom majormud \nclo" +
+    "ne we are working on.\n\n";
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(274, 109);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Name = "About";
             this.Text = "About";
@@ -56,5 +69,6 @@
         #endregion
 
         private Button button1;
+        private RichTextBox richTextBox1;
     }
 }
