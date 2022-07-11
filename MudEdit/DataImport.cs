@@ -21,5 +21,10 @@ namespace MudEdit
         {
             this.Close();
         }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }
