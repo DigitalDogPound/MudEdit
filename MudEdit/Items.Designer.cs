@@ -81,10 +81,25 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -232,6 +247,20 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.textBox19);
+            this.tabPage2.Controls.Add(this.textBox20);
+            this.tabPage2.Controls.Add(this.textBox21);
+            this.tabPage2.Controls.Add(this.textBox22);
+            this.tabPage2.Controls.Add(this.textBox18);
+            this.tabPage2.Controls.Add(this.textBox17);
+            this.tabPage2.Controls.Add(this.textBox16);
+            this.tabPage2.Controls.Add(this.textBox15);
+            this.tabPage2.Controls.Add(this.label21);
+            this.tabPage2.Controls.Add(this.label20);
+            this.tabPage2.Controls.Add(this.label19);
+            this.tabPage2.Controls.Add(this.label18);
+            this.tabPage2.Controls.Add(this.label17);
+            this.tabPage2.Controls.Add(this.richTextBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -584,6 +613,115 @@
             this.tabPage5.Text = "Abilities P2";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(6, 17);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(270, 96);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(25, 1);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(67, 15);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "Description";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(7, 283);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(79, 15);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "Destruct MSG";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(27, 256);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(59, 15);
+            this.label19.TabIndex = 3;
+            this.label19.Text = "Miss MSG";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(53, 225);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(33, 15);
+            this.label20.TabIndex = 4;
+            this.label20.Text = "Read";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(36, 197);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(51, 15);
+            this.label21.TabIndex = 5;
+            this.label21.Text = "Hit MSG";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(87, 193);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(65, 23);
+            this.textBox15.TabIndex = 5;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(87, 280);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(65, 23);
+            this.textBox16.TabIndex = 6;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(87, 251);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(65, 23);
+            this.textBox17.TabIndex = 7;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(87, 222);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(65, 23);
+            this.textBox18.TabIndex = 8;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(158, 222);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(265, 23);
+            this.textBox19.TabIndex = 12;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(158, 251);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(265, 23);
+            this.textBox20.TabIndex = 11;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(158, 280);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(265, 23);
+            this.textBox21.TabIndex = 10;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(158, 193);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(265, 23);
+            this.textBox22.TabIndex = 9;
+            // 
             // Items
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -601,6 +739,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -660,5 +800,19 @@
         private TabPage tabPage3;
         private TabPage tabPage4;
         private TabPage tabPage5;
+        private TextBox textBox19;
+        private TextBox textBox20;
+        private TextBox textBox21;
+        private TextBox textBox22;
+        private TextBox textBox18;
+        private TextBox textBox17;
+        private TextBox textBox16;
+        private TextBox textBox15;
+        private Label label21;
+        private Label label20;
+        private Label label19;
+        private Label label18;
+        private Label label17;
+        private RichTextBox richTextBox1;
     }
 }
