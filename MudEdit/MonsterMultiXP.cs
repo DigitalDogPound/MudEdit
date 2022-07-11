@@ -21,5 +21,10 @@ namespace MudEdit
         {
             this.Close();
         }
+
+        private void MonsterMultiXP_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
