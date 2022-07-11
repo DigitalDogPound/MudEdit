@@ -21,5 +21,10 @@ namespace MudEdit
         {
             this.Close();
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
