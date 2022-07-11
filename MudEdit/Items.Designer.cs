@@ -95,11 +95,18 @@
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -588,6 +595,12 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label24);
+            this.tabPage3.Controls.Add(this.label22);
+            this.tabPage3.Controls.Add(this.label23);
+            this.tabPage3.Controls.Add(this.panel4);
+            this.tabPage3.Controls.Add(this.panel5);
+            this.tabPage3.Controls.Add(this.panel3);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(453, 376);
@@ -722,6 +735,54 @@
             this.textBox22.Size = new System.Drawing.Size(265, 23);
             this.textBox22.TabIndex = 9;
             // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(3, 133);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(436, 93);
+            this.panel3.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(3, 248);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(436, 122);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(3, 19);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(436, 92);
+            this.panel5.TabIndex = 1;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(0, 229);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(78, 15);
+            this.label22.TabIndex = 5;
+            this.label22.Text = "Negate Spells";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(0, 114);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(98, 15);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "Class Restrictions";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(-1, 2);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(96, 15);
+            this.label24.TabIndex = 7;
+            this.label24.Text = "Race Restrictions";
+            // 
             // Items
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -741,6 +802,8 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -814,5 +877,11 @@
         private Label label18;
         private Label label17;
         private RichTextBox richTextBox1;
+        private Label label24;
+        private Label label22;
+        private Label label23;
+        private Panel panel4;
+        private Panel panel5;
+        private Panel panel3;
     }
 }
